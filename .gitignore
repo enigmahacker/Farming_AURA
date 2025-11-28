@@ -9,3 +9,7 @@ node_modules/
 dist/
 .pytest_cache/
 /.vscode/
+# Generated dataset files (large) - keep out of commits after initial seed
+backend/data/dataset/crops.csv
+backend/data/dataset/crops_*.jsonl
+backend/data/knowledge/crops_water_fertilizer.json
