@@ -1,0 +1,42 @@
+{
+  "fields": {
+    "id": {
+      "type": "integer"
+    },
+    "name_en": {
+      "type": "string",
+      "lang": "en"
+    },
+    "name_hi": {
+      "type": "string",
+      "lang": "hi"
+    },
+    "category": {
+      "type": "string"
+    },
+    "water_requirement_mm_per_season": {
+      "type": "number",
+      "unit": "mm"
+    },
+    "irrigation_frequency_days": {
+      "type": "integer",
+      "unit": "days"
+    },
+    "fertilizer_n_kg_per_ha": {
+      "type": "number",
+      "unit": "kg/ha (N)"
+    },
+    "fertilizer_p_kg_per_ha": {
+      "type": "number",
+      "unit": "kg/ha (P)"
+    },
+    "fertilizer_k_kg_per_ha": {
+      "type": "number",
+      "unit": "kg/ha (K)"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "description": "Estimated water and fertilizer requirements per crop. Values are approximate; validate for local conditions before using in production ML systems."
+}
